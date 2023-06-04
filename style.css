@@ -1,0 +1,28 @@
+body{
+    background-color: blueviolet;
+    align-content: center;
+}
+
+.rows{
+    display: flex;
+}
+
+button{
+    padding: 2vh;
+}
+
+.cal{
+    align-items: center;
+    align-content: center;
+    padding-left: 70vh;
+    padding-top: 20vh;
+}
+button:hover{
+    background-color: rgb(207, 204, 35);
+    cursor: pointer;
+}
+
+#input
+{
+    background-color: aquamarine;
+}
