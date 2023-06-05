@@ -6,7 +6,7 @@ let currNum = "0";
 let lastOp = "+";
 
 let currChar = "";
-operations = ["+", "-", "/", "x", "x>", "="];
+operations = ["+", "-", "/", "x","="];
 
 function calculations() {
   if (operations.includes(currChar)) {
@@ -14,9 +14,8 @@ function calculations() {
     else if (lastOp == "-") result -= parseFloat(currNum);
     else if (lastOp == "x") result *= parseFloat(currNum);
     else if (lastOp == "/") result /= parseFloat(currNum);
-    else if (currChar == "x>") {
-      currNum = currNum.substring(0, currNum.length - 1);
-    } 
+    
+    
     else if (currChar == "=") {
       console.log(result);
       if (lastOp == "+") result += parseFloat(currNum);
@@ -27,12 +26,16 @@ function calculations() {
       let x = document.getElementsByClassName("results");
       x[0].innerHTML = result;
       result = 0;
-      currNum = "";
+      currNum = "0";
     }
 
     lastOp = currChar;
     currNum = "";
-  } else {
+  } 
+  else if (currChar == "x>") {
+    currNum = currNum.substring(0, currNum.length - 1);
+  }
+  else {
     currNum += currChar;
     console.log(currChar, currNum);
   }
