@@ -62,10 +62,6 @@ Behavior details:
 
 ## Files of interest
 
-- `index.html` — UI markup.
-- `style.css` — Visual styles.
-- `script.js` — Calculation logic and DOM wiring.
-## Files of interest
 
 - `index.html` — UI markup.
 - `style.css` — Visual styles.
