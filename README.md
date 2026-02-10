@@ -4,18 +4,15 @@ A simple browser-based calculator (HTML/CSS/JS).
 
 ## Clone
 
-Replace `<repo-url>` with your repository URL and run:
 
 ```bash
-git clone <repo-url>
+git clone git@github.com:AyushAman1208/calculator.git
 cd calculator
 ```
 
 If you already have the folder locally, `cd` into it:
 
-```bash
-cd /home/ayush-aman/Documents/projects/personal/calculator
-```
+
 
 ## Start server (Node)
 
